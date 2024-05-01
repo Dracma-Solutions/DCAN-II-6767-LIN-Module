@@ -8,8 +8,8 @@
         "positiveFeedback": "05 47 04 5A"
     },
     "baudRateParametersIndex":{
-        "bd1":4,
-        "bd2":5
+        "bdDec":4,
+        "bdFrac":5
     },
     "frameSend":{
         "request":          "05 47 01 BA",
