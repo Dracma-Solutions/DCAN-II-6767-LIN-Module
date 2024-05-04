@@ -8,8 +8,9 @@
         "positiveFeedback": "05 47 04 5A"
     },
     "baudRateParametersIndex":{
-        "bdDec":4,
-        "bdFrac":5
+        "channel":4,
+        "bdMSB":5,
+        "bdLSB":6
     },
     "frameSend":{
         "request":          "05 47 01 BA",
@@ -20,8 +21,9 @@
         "positiveFeedback": "05 47 01 FC"
     },
     "frameParametersIndex":{
-        "id":4,
-        "dataStart":5,
+        "channel":4,
+        "id":5,
+        "dataStart":6,
         "dataLength":8
     }
 }

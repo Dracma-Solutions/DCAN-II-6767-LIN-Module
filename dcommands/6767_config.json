@@ -8,8 +8,9 @@
         "positiveFeedback": [5,71,4,90]
     },
     "baudRateParametersIndex":{
-        "bdDec":4,
-        "bdFrac":5
+        "channel":4,
+        "bdMSB":5,
+        "bdLSB":6
     },
     "frameSend":{
         "request":          [5,71,1,186],
