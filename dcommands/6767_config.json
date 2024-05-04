@@ -1,0 +1,27 @@
+{
+    "system":"DCAN-II",
+    "module":"LIN Module 8-channels",
+    "serialNumber": "6767",
+    "dllName":"dcan-ii-6767.dll",
+    "setBaudRate": {
+        "request":          [5,71,4,26], 
+        "positiveFeedback": [5,71,4,90]
+    },
+    "baudRateParametersIndex":{
+        "bdDec":4,
+        "bdFrac":5
+    },
+    "frameSend":{
+        "request":          [5,71,1,186],
+        "positiveFeedback": [5,71,1,250]
+    },
+    "frameSendReceive":{
+        "request":          [5,71,1,186],
+        "positiveFeedback": [5,71,1,252]
+    },
+    "frameParametersIndex":{
+        "id":4,
+        "dataStart":5,
+        "dataLength":8
+    }
+}
